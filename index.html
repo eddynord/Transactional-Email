@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactional Email</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            background-color: #f1f1f1;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            table-layout: fixed;
+            font-family: sans-serif;
+        }
+
+        .main-content {
+            background-color:#fff;
+        }
+        
+        .header,
+        
+        .desc{
+         
+            width: 100%;
+            max-width: 610px;
+            margin: 0 auto;
+        }
+            
+          
+        hr {
+            border: 0.2px solid  rgb(240, 240, 240);
+        }
+        
+
+        .product-one {
+            width: 100%;
+            max-width: 600px;
+            padding-left: 45px;
+            
+        }
+
+        .product-two {
+            padding-left: 45px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        
+
+        .product-one-flex,
+        .product-two-flex {
+            padding-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: initial;
+        }
+
+        .products-desc {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+        .link {
+            padding-left: 45px;
+            padding-top: 35px;
+            padding-bottom: 30px;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .link a {
+            background-color: #17bebb;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 35px;
+            border-radius: 5px;
+            
+        }
+
+        .link:hover {
+            transform: scale(0.98);
+           
+        }
+
+        .footer-content {
+            padding-left: 45px;
+            display: grid;
+            grid-template-columns: repeat(3, 206.667px);
+            justify-content: space-between;
+            
+        }
+            
+            
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <table class="main">
+            <tr>
+                <td>
+                    <table class="main-content">
+                        <tr >
+                            <td>
+                                <table class="header">
+                                    <tr>
+                                        <td style="color: #17bebb; font-weight:600; font-size:25px; padding-top: 50px; padding-bottom: 50px;">
+                                            <strong>Shop</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <table class="title">
+                                    <tr>
+                                        <td style="padding-left:45px ;">
+                                            <h1 style="font-weight:100; font-size: 36px;">Ronald your shopping cart<br>misses you</h1>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="padding-left:45px ;">
+                                            <p style="font-weight:100; font-size: 26px; line-height:2; color: #0000008f;">Amazing deals, updates, interesting news right in your inbox</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                            </td>
+                        </tr>
+            
+                        <tr >
+                            <td class="products">
+                                <table class="desc" >
+                                    <tr class="products-desc">
+                                        <td>
+                                            <strong>Item</strong>
+                                        </td>
+            
+                                        <td>
+                                            <strong>Price</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr>
+            
+                                <table class="product-one">
+                                    <tr class="product-one-flex">
+                                        <td>
+                                            <img src="/assets/prod-1.jpg" alt="Analog Watch" title="Analog Watch" width="108">
+                                        </td>
+                                        <td style="padding-left: 40px;">
+                                            <strong style="font-size:22px;">Analog Wrest Watch</strong>
+                                            <p style="color:#0000008f;">Small</p>
+                                            <p style="color:#0000008f;">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                        </td>
+                                        <td style="padding-left:75px ;">
+                                           <strong style="font-size:25px;">$120</strong> 
+                                        </td>
+                                            
+                                    </tr>
+                                </table>
+                                <hr>
+                                <table class="product-two">
+                                    <tr class="product-two-flex">
+                                        <td>
+                                            <img src="/assets/prod-2.jpg" alt="Polaroid" title="Polaroid" width="108">
+                                        </td>
+                                        <td style="padding-left: 40px;">
+                                            <strong style="font-size:22px;">Analog Wrest Watch</strong>
+                                            <p style="color:#0000008f;">Small</p>
+                                            <p style="color:#0000008f;">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                        </td>
+                                        <td>
+                                           <strong style="font-size:25px;">$120</strong> 
+                                        </td>
+                                            
+                                    </tr>
+                                </table>
+                                <hr>
+                                
+                                <table>
+                                    <tr>
+                                        <td class="link">
+                                            <a href="#">Continue your order</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr>
+            
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>
+                    <table class="footer">
+                        <tr class="footer-content">
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <strong>About</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>A small river named Duden flows by their place and supplies it with the necessary regelialia.</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <strong>Contact Info</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>203 Fake St. Mountain View, San Francisco, California, USA
+                                                +2 392 3929 210</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <strong>Useful Links</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="display:flex; flex-direction:column">
+                                            <a href="#">Home</a>
+                                            <a href="#">Account</a>
+                                            <a href="#">Wishlist</a>
+                                            <a href="#">order</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+
+        </table>
+
+    </div>
+    
+</body>
+</html>
